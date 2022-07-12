@@ -10,7 +10,7 @@ A personal website for Kianna Mendez displaying her professional experience. Thi
 - A contact form for users to get connected with Kianna!
 
 ## Mockup
-<img src="/img/KiannaMendezPortfolioFigma.png" alt="drawing" width="500"/>
+<img src="/img/KiannaMendezPortfolioFigma.png" alt="drawing" width="800"/>
 
 ## User Stories
 
