@@ -9,13 +9,15 @@ A personal website for Kianna Mendez displaying her professional experience. Thi
 - Admin will be able to make changes directly to her website
 - A contact form for users to get connected with Kianna!
 
-
+## Mockup
 
 ## User Stories
 
 - [ ] Implement user friendly design
-	- Editing features visible to admin only
-- [ ] Connect [Parse](https://parseplatform.org/) for user login functionality
+	- [ ] Admin can add / remove navbar tabs
+    - [ ] Admin can edit text blocs, pictures, links
+    - [ ] Admin can change website's theme
+- [ ] Connect [Parse](https://parseplatform.org/) for admin authentication
 - [ ] Implement contact form with [FormSubmit](https://formsubmit.co/)
 
 ## Resources
