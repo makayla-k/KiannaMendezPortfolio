@@ -13,16 +13,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 	<style>
+		@font-face {
+			font-family: betterGrade;
+			src: url("BetterGrade-519DV.ttf");
+		}
+		@font-face {
+			font-family: Gruppo;
+			src: url("Gruppo-Regular.ttf");
+		}
 		body {
-			background:url("img/brittney-weng-unsplash.jpg");
+			/* background:url("img/brittney-weng-unsplash.jpg"); */
+			background-color: #E2F0C4;
 			background-size:cover;
 			background-attachment: fixed;
 		}
-        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
-		#section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
-		#contact {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
+        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: #B1BC9A;}
+		/* #section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);} */
+		/* #contact {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);} */
         nav {
-            background-color: #ebd9b2ce;
+            background-color: #B1BC9A;
+			font-family: Gruppo;
+			color: white;
         }
 		a, a:hover, a:focus, a:active, a:visited {
       		text-decoration: none;
@@ -35,45 +46,41 @@
 
 	<nav class="navbar fixed-top">
         <div class="container-fluid">
-            <h3 class="navbar-brand" style="font:Garamond;">Makayla K. Rodriguez</h3>
+            <h3 class="navbar-brand" style="font:Garamond;">Kianna Mendez</h3>
             <ul class="justify-content-end">
 				<button class="btn btn-sm btn-outline-light">
 					<a href="#section1">About</a>
 				</button>
 				<button class="btn btn-sm btn-outline-light">
-					<a href="#contact">Contact</a>
+					<a href="#contact">Gallery</a>
 				</button>
 				<button class="btn btn-sm btn-outline-light">
-					<a href="resume/Resume_Makayla_K_Rodriguez (2022).pdf" target="_blank">Resume</a>
+					<a href="#contact">Contact</a>
 				</button>
             </ul>
         </div>
     </nav>
 
 	<div id="section1" class="container-fluid">
-        <img src="img/ProfileIsland.jpeg" height="200">
-		<div style="color:rgb(44, 29, 29); padding-left: 5%; display:inline-block;">
-			<h1>Hello my name is Makayla K.</h1>
-			<h2>and I am a Software Engineer!</h2>
+		<div class="row">
+			<div class="col-sm">
+				<img src="img/KiannaProfile.JPG" height="500" style="transform: rotate(-10deg);">
+			</div>
+			<div class="col-sm"  style="color:white;">
+				<div style="text-align: center;">
+					<h1 style="font-family: betterGrade; font-size: 150px;">Hi There</h1>
+					<h2 style="font-family: Gruppo; font-size: 22px; letter-spacing: 10px;">MY NAME IS KIANNA!</h2>
+				</div>
+				<div style="margin-top: 35px; font-size: 15px;">
+					<p>
+						Invisible fish swim this ghost ocean now described by waves of sand, by water-worn rock.
+						 Soon the fish will learn to walk. Then humans will come ashore and paint dreams on the dying stone. 
+						 Then later, much later, the ocean floor will be punctuated by Chevy trucks, carrying the dreamers’ 
+						 decendants, who are going to the store.
+					</p>
+				</div>
+			</div>
 		</div>
-        <div style="margin-top:15px;">
-			<p>
-				I am a Software Engineer undergrad from Cal State - Monterey Bay and I will be graduating <strong>May of 2022</strong>. I am a part of the <a href="https://csin3.com/" target="_blank">CSin3</a> 
-				cohort program. CSin3 is a selective accelerated pathway for earning a bachelor's degree in three years, featuring regular extracurricular workshops on academic and professional development.
-				Outside of school I enjoy working on pieces inclusive to <strong>Open Source</strong>, <strong>Mobile App Development</strong>, and <strong>Web Design</strong>! Being not only a minority 
-				but a woman in the STEM industry, it has constanlty pushed me to reach my full potential.
-			</p>
-			<br>
-			<h4 style="color:rgb(44, 29, 29);">Ethnic Background</h4>
-			<br>
-			<p>
-				I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. 
-				Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, 
-				Ke Kai O'uhane. One of my passions is to share and perpetuate the aloha (love) to all. 
-				My cultural background has taught me to be appreciative, respectful, and most of all creative. 
-				I have found this to be an amazing outlet to connect with others.
-			</p>
-        </div>
     </div>
 
 
